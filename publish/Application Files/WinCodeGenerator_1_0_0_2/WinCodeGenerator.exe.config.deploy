@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="WinCodeGenerator.Properties.SettingsMain" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="WinCodeGenerator.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+
+	<connectionStrings>
+		<add name="CottaConnection" connectionString="" providerName="System.Data.SqlClient" />
+	</connectionStrings>
+	
+ <userSettings>
+  <WinCodeGenerator.Properties.SettingsMain>
+   <setting name="is_settings_database" serializeAs="String">
+    <value>False</value>
+   </setting>
+   <setting name="module_name" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="namespace_name" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="client_name" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="table_name" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="alias_name" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="is_all" serializeAs="String">
+    <value>False</value>
+   </setting>
+   <setting name="is_audit" serializeAs="String">
+    <value>False</value>
+   </setting>
+   <setting name="is_bll" serializeAs="String">
+    <value>False</value>
+   </setting>
+   <setting name="is_businessentities" serializeAs="String">
+    <value>False</value>
+   </setting>
+   <setting name="is_dal" serializeAs="String">
+    <value>False</value>
+   </setting>
+  </WinCodeGenerator.Properties.SettingsMain>
+  <WinCodeGenerator.Properties.Settings>
+   <setting name="is_config_database" serializeAs="String">
+    <value>False</value>
+   </setting>
+   <setting name="server_type" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="server_name" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="authentication" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="db_name" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="login_user" serializeAs="String">
+    <value />
+   </setting>
+   <setting name="login_pass" serializeAs="String">
+    <value />
+   </setting>
+  </WinCodeGenerator.Properties.Settings>
+ </userSettings>
+</configuration>
